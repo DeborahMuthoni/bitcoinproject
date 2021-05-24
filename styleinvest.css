@@ -89,21 +89,7 @@ body{
     color: #fff;
     transition: 0.3s;
 }
-.list{
-    position: absolute;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: 0.3s;
-}
-.newlist{
-    transform: scaleY(1);
-}
-.links{
-    background-color: #a0a0a0;
-}
-.links:hover{
-    background-color: #1e90ff;
-    transform: scale(1.1);
+
 }
 .investbox input[type="submit"]
 {
@@ -111,7 +97,7 @@ body{
     outline: none;
     height: 40px;
     background: #ff4500;
-    color: #fff;
+    color: brown;
     font-size: 18px;
     border-radius: 20px;
     
