@@ -6,14 +6,42 @@ body{
     margin: 100px auto;
     background: #a0a0a0;
     border-radius: 7px;
-    box-shadow: 1px 2px 4px #fff;
     height: 320px;
         
     
 }
 .box .heading{
     font-family: fantasy;
-    color: #ff4500;
+    color: red;
+}
+.box0{
+	background: white;
+	width: 620px;
+	margin: 100px auto;
+	border-radius: 7px;
+	height: 350px;
+}
+.box00{
+	background: white;
+	width: 620px;
+	margin: 100px auto;
+	border-radius: 7px;
+	height: 150px;
+	
+}
+.box000{
+	background: white;
+	width: 620px;
+	margin: 100px auto;
+	border-radius: 7px;
+	height: 150px;
+}
+.box0000{
+	background: white;
+	width: 620px;
+	margin: 100px auto;
+	border-radius: 7px;
+	height: 150px;
 }
 #parent{
     list-style: none;
@@ -28,14 +56,13 @@ body{
     display: inline-block;
     width: 33%;
     height: 100%;
-    background-color: #ff4500;
+    background-color: red;
 }
 .box2{
     width: 630px;
     margin: 100px auto;
-    background: #a0a0a0;
+    background: grey;
     border-radius: 7px;
-    box-shadow: 1px 2px 4px #fff;
     height: 160px;
 }
         
@@ -52,7 +79,7 @@ body{
     display: inline-block;
     width: 50%;
     height: 100%;
-    background-color: #ff4500;
+    background-color: red;
 }
 
 }
@@ -68,14 +95,13 @@ body{
     width: 630px;
     margin: 100px auto;
     border-radius: 7px;
-    box-shadow: 1px 2px 4px #fff;
-    height: 160px;
+    height: 60px;
 }
 .click{
-    background-color: #ff4500;
+    background-color: #00feca;
 }
 .click:hover{
-    background-color: #ffc107;
+    background-color: #fdf200;
     color: #000;
     
 }
@@ -86,29 +112,37 @@ body{
     border: none;
     outline: none;
     width: 630px;
-    color: #fff;
+    color: #a5d8f3;
     transition: 0.3s;
+	box-shadow: #a5d8f3;
 }
 
-}
+
 .investbox input[type="submit"]
 {
     border: none;
     outline: none;
-    height: 45px;
-    background: #ff4500;
-    color: brown;
-    font-size: 18px;
-    border-radius: 20px;
+    height: 40px;
+    background: grey;
+    color: white;
+    font-size: 15px;
+    border-radius: 40px;
     
 }
 .investbox input[type="submit"]:hover
 {
     cursor: pointer;
-    background: #ffc107;
+    background: red;
     color: #000;
     
 }
+.center-justified
+{
+    text-align: justify;
+    margin: 0 auto;
+    width: 30em;
+}
+
 
 
 
