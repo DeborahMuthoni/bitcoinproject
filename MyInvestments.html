@@ -4,12 +4,20 @@
          <link rel="stylesheet" type="text/css" href="stylemyinvestments.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="">
+		
+		</head>
     
-<body style="background-color: #a5d8f3;">
+<body style="background-color: white;">
+	<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-statsticker="true" data-stats="USD"></div>
     
 	<div class="box">
-        <p class="heading"><center>YOUR INVESTMENTS</center></p><br>
-        <h1><center>KSH 0.00</center></h1>
+        <p class="heading"><center>MY INVESTMENTS</center></p><br>
+        <h1><center>
+			<span id="result"></span>$
+	<script>
+		document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+	</script>
+			</center></h1>
         <ul id="parent">
             <li><center>Daily Bonus<br>0.00</center></li>
             <li><center>%Returns<br>0.00</center></li>
@@ -25,8 +33,6 @@
         </ul>
     </div>
 	
-	<script src="https://cryptoradar.org/wp-content/themes/mag-child/inc/widget/widget.js"></script>
-	<div id="cr-widget" data-view="0" data-coin="bitcoin" data-market="1" data-volume="1" data-currency="USD" data-num="1" data-pages="1"></div>
 		</body>
-	</head>
+	
 </html>
